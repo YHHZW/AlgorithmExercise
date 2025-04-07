@@ -91,12 +91,12 @@ public class CanPartitionTest {
 
     @Test
     public void test() {
-        assertEquals(canPartition3(new int[]{1, 5, 11, 5}), true);
+        assertTrue(canPartition3(new int[]{1, 5, 11, 5}));
     }
 
     @Test
     public void test2() {
-        assertEquals(canPartition3(new int[]{1, 2, 3, 5}), false);
+        assertFalse(canPartition3(new int[]{1, 2, 3, 5}));
     }
 
 }
